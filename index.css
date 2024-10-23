@@ -1,0 +1,250 @@
+.frame-child {
+  width: 157px;
+  height: 285px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+}
+.bandhiga-1-icon,
+.frame-item {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-item {
+  align-self: stretch;
+  height: 48px;
+  max-width: 100%;
+}
+.bandhiga-1-icon {
+  height: 59px;
+  width: 127px;
+}
+.bandhiga-1-wrapper,
+.rectangle-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 4px 0 2px;
+}
+.rectangle-parent {
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: 81px 7px 82px 17px;
+  gap: 15px;
+}
+.vip {
+  margin: 0 !important;
+  height: 174.8px;
+  width: 188.4px;
+  position: absolute;
+  bottom: -94.89px;
+  left: 91px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  transform: rotate(-27.2deg);
+  transform-origin: 0 0;
+}
+.bandhigga-guuleystayaasha {
+  margin: 0;
+}
+.bandhigga-guuleystayaasha-soo-container {
+  position: relative;
+  font-size: var(--font-size-sm);
+}
+.event-name {
+  flex: 1;
+  flex-direction: column;
+}
+.event-details,
+.event-name,
+.name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.name {
+  flex: 1;
+  flex-direction: column;
+  z-index: 1;
+  margin-left: -80px;
+}
+.event-details {
+  align-self: stretch;
+  flex-direction: row;
+}
+.organiser {
+  margin-bottom: -3px;
+  flex: 1;
+  position: relative;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+.organiser-wrapper {
+  align-self: stretch;
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hormuud,
+.venue1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.hormuud {
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  color: inherit;
+}
+.venue1 {
+  margin-bottom: -1px;
+  font-weight: 800;
+}
+.venue-wrapper {
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+}
+.sahal-hall,
+.ticket-id1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.sahal-hall {
+  font-size: var(--font-size-sm);
+}
+.ticket-id1 {
+  margin-bottom: -1px;
+  flex: 1;
+  font-weight: 800;
+}
+.ticket-id-wrapper {
+  align-self: stretch;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mahamed-ahmed-mohamed1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  white-space: pre-wrap;
+  display: inline-block;
+  min-width: 109px;
+}
+.end-date {
+  align-self: stretch;
+  position: relative;
+  font-weight: 800;
+}
+.mahamed-ahmed-mohamed2 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  white-space: pre-wrap;
+  display: inline-block;
+  min-width: 107.5px;
+}
+.ticket-info {
+  flex: 1;
+  flex-direction: column;
+  gap: 6.3px;
+  z-index: 1;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.organiser-venue,
+.ticket-info,
+.v-i-p-ticket {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.v-i-p-ticket {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.organiser-venue {
+  flex: 1;
+  flex-direction: column;
+  padding: 43px 0 0;
+  box-sizing: border-box;
+  min-width: 318px;
+}
+.content,
+.frame-inner {
+  position: absolute;
+  left: 0;
+}
+.content {
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 22px;
+  max-width: 100%;
+  height: 100%;
+  text-align: left;
+  font-size: 100px;
+  color: rgba(0, 148, 212, 0.5);
+  font-family: var(--font-barlow);
+}
+.frame-inner {
+  top: -63.1px;
+  width: 247.3px;
+  height: 247.3px;
+  object-fit: contain;
+  z-index: 2;
+}
+.qr-code-svgrepo-com-1-icon {
+  position: absolute;
+  top: 137px;
+  left: 28.1px;
+  border-radius: 8px;
+  width: 127px;
+  height: 127px;
+  overflow: hidden;
+  z-index: 3;
+}
+.frame-parent {
+  position: absolute;
+  top: 0;
+  left: 490.9px;
+  width: 178.1px;
+  height: 264px;
+}
+.root {
+  width: 100%;
+  height: 285px;
+  position: relative;
+  background-color: #0575a6;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 535px) {
+  .root {
+    height: auto;
+    min-height: 285;
+  }
+}
